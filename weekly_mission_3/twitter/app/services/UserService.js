@@ -19,7 +19,6 @@ class UserService{
         const listAllUserNames= users.map(function(user){
             return  user.username
         })
-        console.log(listAllUserNames)
         return listAllUserNames
     }
 }
