@@ -1,7 +1,7 @@
 const app = require('../app/app')
 const request = require("supertest");
 
-describe("Test example", () => {
+describe("Unit test for Express", () => {
     test("GET /", (done) => {
       request(app)
         .get("/")
