@@ -1,0 +1,14 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Proyecto twitter LaunchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Hector Sampieri",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
