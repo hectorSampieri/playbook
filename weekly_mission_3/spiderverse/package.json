@@ -1,0 +1,14 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "Proyecto Spiderverse LaunchX BackEnd Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Hector Sampieri",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
