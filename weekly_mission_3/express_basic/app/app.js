@@ -9,7 +9,9 @@ app.get('/launchX',(req,res)=> {
     res.send('Bienvenidos a LaunchX')
 }) 
 
-
+/*
 app.listen(port,()=>{
     console.log(`App listening por ${port}`)
-})
+}) */
+
+module.exports = app
