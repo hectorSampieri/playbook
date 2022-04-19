@@ -1,0 +1,14 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "Mi primer server con Express LaunchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Hector Sampieri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
