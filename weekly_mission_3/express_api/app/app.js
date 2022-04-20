@@ -29,14 +29,14 @@ app.get('/v1/Explorers/:id',(req,res)=> {
 app.post('/v1/Explorers',(req,res)=> {
     console.log(`API Explores Post Requests ${new Date()}`)
     const requestBody = req.body
-    res.status(200).json({mesage: "Created"})
+    res.status(200).json({message: "Created"})
 }) 
 
 app.put('/v1/Explorers/:id',(req,res)=> {
     console.log(`API Explores PUT  Requests ${new Date()}`)
     console.log(`Update explorer with Id ${req.params.id}`)
     const requestBody = req.body
-    res.status(200).json({mesage: "Update"})
+    res.status(200).json({message: "Update"})
 }) 
 
 
@@ -44,11 +44,13 @@ app.delete('/v1/Explorers/:id',(req,res)=> {
     console.log(`API Explores Delete  Requests ${new Date()}`)
     console.log(`Delete explorer with Id ${req.params.id}`)
     const requestBody = req.body
-    res.status(200).json({mesage: "Deleted"})
+    res.status(200).json({message: "Deleted"})
 }) 
 
-
+/*
 // Con esto inicializamos esta app
 app.listen(port, () => {
- console.log(`Example app listening on port ${port}`)
-})
+ console.log(`Example app listening on port ${port}`) 
+}) */
+
+module.exports = app
